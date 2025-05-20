@@ -1,6 +1,4 @@
-public class Dynamic {
-    private int length;
-    private double[] position;
-
-
+interface Dynamic {
+    public void getMomentum();
+    public void getRotation();
 }
