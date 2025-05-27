@@ -1,19 +1,21 @@
 package object;
 
 public class Shape {
-    private int length;
     private double[] position;
 
     public Shape() {
-        this.length = 1;
-        this.position = new double[] {0, 0};
+        this.position = new double[] {0.0, 0.0};
     }
 
-    public int getLength() {
-        return length;
+    public Shape(double[] position) {
+        this.position = position;
     }
 
     public double[] getPosition() {
         return position;
+    }
+
+    public void changePosition(double[] newPosition) {
+        this.position = newPosition;
     }
 }
