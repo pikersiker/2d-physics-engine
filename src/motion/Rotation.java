@@ -1,6 +1,9 @@
-public class Momentum implements Dynamic {
+package motion;
+
+public class Rotation implements Dynamic {
     @Override
     public void getMomentum() {
+
     }
 
     @Override
