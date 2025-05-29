@@ -8,5 +8,6 @@ public class Main {
         Shape shape = new Square();
         System.out.println(Arrays.toString(shape.getPosition()));
         System.out.println(((Square) shape).getLength());
+
     }
 }
